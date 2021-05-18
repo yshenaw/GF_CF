@@ -1,0 +1,299 @@
+[0;30;43mCpp extension not loaded[0m
+>>SEED: 2020
+[0;30;43mloading [../data/gowalla][0m
+810128 interactions for training
+217242 interactions for testing
+gowalla Sparsity : 0.0008396216228570436
+[0;30;43mCpp extension not loaded[0m
+>>SEED: 2020
+[0;30;43mloading [../data/gowalla][0m
+810128 interactions for training
+217242 interactions for testing
+gowalla Sparsity : 0.0008396216228570436
+/home/v-yifeis/GF-CF/LightGCN-PyTorch/Fig1/sources/.rendered.sampling.cpp: In function ‘pybind11::array_t<int> sample_negative_ByUser(std::vector<int>, int, std::vector<std::vector<int> >, int)’:
+/home/v-yifeis/GF-CF/LightGCN-PyTorch/Fig1/sources/.rendered.sampling.cpp:62:33: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     for (int user_i = 0; user_i < users.size(); user_i++)
+                          ~~~~~~~^~~~~~~~~~~~~~
+[0;30;43mCpp extension not loaded[0m
+>>SEED: 2020
+[0;30;43mloading [../data/gowalla][0m
+810128 interactions for training
+217242 interactions for testing
+gowalla Sparsity : 0.0008396216228570436
+gowalla is ready to go
+===========config================
+{'A_n_fold': 100,
+ 'A_split': False,
+ 'bigdata': False,
+ 'bpr_batch_size': 2048,
+ 'decay': 0.0001,
+ 'dropout': 0,
+ 'keep_prob': 0.6,
+ 'latent_dim_rec': 64,
+ 'lightGCN_n_layers': 3,
+ 'lr': 0.001,
+ 'multicore': 0,
+ 'pretrain': 0,
+ 'test_u_batch_size': 100}
+cores for test: 20
+comment: lgn
+tensorboard: 1
+LOAD: 0
+Weight path: ./checkpoints
+Test Topks: [20]
+using bpr loss
+===========end===================
+[0;30;43muse NORMAL distribution initilizer[0m
+loading adjacency matrix
+successfully loaded...
+don't split the matrix
+lgn is already to go(dropout:0)
+load and save to /Users/gus/Desktop/light-gcn/code/checkpoints/lgn-gowalla-3-64.pth.tar
+[0;30;43m[TEST][0m
+{'precision': array([0.01540793]), 'recall': array([0.04821775]), 'ndcg': array([0.03765586])}
+/home/v-yifeis/GF-CF/LightGCN-PyTorch/Fig1/sources/.rendered.sampling.cpp: In function ‘pybind11::array_t<int> sample_negative_ByUser(std::vector<int>, int, std::vector<std::vector<int> >, int)’:
+/home/v-yifeis/GF-CF/LightGCN-PyTorch/Fig1/sources/.rendered.sampling.cpp:62:33: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     for (int user_i = 0; user_i < users.size(); user_i++)
+                          ~~~~~~~^~~~~~~~~~~~~~
+[0;30;43mCpp extension not loaded[0m
+>>SEED: 2020
+[0;30;43mloading [../data/gowalla][0m
+810128 interactions for training
+217242 interactions for testing
+gowalla Sparsity : 0.0008396216228570436
+gowalla is ready to go
+===========config================
+{'A_n_fold': 100,
+ 'A_split': False,
+ 'bigdata': False,
+ 'bpr_batch_size': 2048,
+ 'decay': 0.0001,
+ 'dropout': 0,
+ 'keep_prob': 0.6,
+ 'latent_dim_rec': 128,
+ 'lightGCN_n_layers': 3,
+ 'lr': 0.001,
+ 'multicore': 0,
+ 'pretrain': 0,
+ 'test_u_batch_size': 100}
+cores for test: 20
+comment: lgn
+tensorboard: 1
+LOAD: 0
+Weight path: ./checkpoints
+Test Topks: [20]
+using bpr loss
+===========end===================
+[0;30;43muse NORMAL distribution initilizer[0m
+loading adjacency matrix
+successfully loaded...
+don't split the matrix
+lgn is already to go(dropout:0)
+load and save to /Users/gus/Desktop/light-gcn/code/checkpoints/lgn-gowalla-3-128.pth.tar
+[0;30;43m[TEST][0m
+{'precision': array([0.02424811]), 'recall': array([0.07327956]), 'ndcg': array([0.06010879])}
+/home/v-yifeis/GF-CF/LightGCN-PyTorch/Fig1/sources/.rendered.sampling.cpp: In function ‘pybind11::array_t<int> sample_negative_ByUser(std::vector<int>, int, std::vector<std::vector<int> >, int)’:
+/home/v-yifeis/GF-CF/LightGCN-PyTorch/Fig1/sources/.rendered.sampling.cpp:62:33: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     for (int user_i = 0; user_i < users.size(); user_i++)
+                          ~~~~~~~^~~~~~~~~~~~~~
+[0;30;43mCpp extension not loaded[0m
+>>SEED: 2020
+[0;30;43mloading [../data/gowalla][0m
+810128 interactions for training
+217242 interactions for testing
+gowalla Sparsity : 0.0008396216228570436
+gowalla is ready to go
+===========config================
+{'A_n_fold': 100,
+ 'A_split': False,
+ 'bigdata': False,
+ 'bpr_batch_size': 2048,
+ 'decay': 0.0001,
+ 'dropout': 0,
+ 'keep_prob': 0.6,
+ 'latent_dim_rec': 256,
+ 'lightGCN_n_layers': 3,
+ 'lr': 0.001,
+ 'multicore': 0,
+ 'pretrain': 0,
+ 'test_u_batch_size': 100}
+cores for test: 20
+comment: lgn
+tensorboard: 1
+LOAD: 0
+Weight path: ./checkpoints
+Test Topks: [20]
+using bpr loss
+===========end===================
+[0;30;43muse NORMAL distribution initilizer[0m
+loading adjacency matrix
+successfully loaded...
+don't split the matrix
+lgn is already to go(dropout:0)
+load and save to /Users/gus/Desktop/light-gcn/code/checkpoints/lgn-gowalla-3-256.pth.tar
+[0;30;43m[TEST][0m
+{'precision': array([0.03509612]), 'recall': array([0.10604729]), 'ndcg': array([0.08752593])}
+/home/v-yifeis/GF-CF/LightGCN-PyTorch/Fig1/sources/.rendered.sampling.cpp: In function ‘pybind11::array_t<int> sample_negative_ByUser(std::vector<int>, int, std::vector<std::vector<int> >, int)’:
+/home/v-yifeis/GF-CF/LightGCN-PyTorch/Fig1/sources/.rendered.sampling.cpp:62:33: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     for (int user_i = 0; user_i < users.size(); user_i++)
+                          ~~~~~~~^~~~~~~~~~~~~~
+[0;30;43mCpp extension not loaded[0m
+>>SEED: 2020
+[0;30;43mloading [../data/gowalla][0m
+810128 interactions for training
+217242 interactions for testing
+gowalla Sparsity : 0.0008396216228570436
+gowalla is ready to go
+===========config================
+{'A_n_fold': 100,
+ 'A_split': False,
+ 'bigdata': False,
+ 'bpr_batch_size': 2048,
+ 'decay': 0.0001,
+ 'dropout': 0,
+ 'keep_prob': 0.6,
+ 'latent_dim_rec': 512,
+ 'lightGCN_n_layers': 3,
+ 'lr': 0.001,
+ 'multicore': 0,
+ 'pretrain': 0,
+ 'test_u_batch_size': 100}
+cores for test: 20
+comment: lgn
+tensorboard: 1
+LOAD: 0
+Weight path: ./checkpoints
+Test Topks: [20]
+using bpr loss
+===========end===================
+[0;30;43muse NORMAL distribution initilizer[0m
+loading adjacency matrix
+successfully loaded...
+don't split the matrix
+lgn is already to go(dropout:0)
+load and save to /Users/gus/Desktop/light-gcn/code/checkpoints/lgn-gowalla-3-512.pth.tar
+[0;30;43m[TEST][0m
+{'precision': array([0.04345067]), 'recall': array([0.1339316]), 'ndcg': array([0.10997895])}
+/home/v-yifeis/GF-CF/LightGCN-PyTorch/Fig1/sources/.rendered.sampling.cpp: In function ‘pybind11::array_t<int> sample_negative_ByUser(std::vector<int>, int, std::vector<std::vector<int> >, int)’:
+/home/v-yifeis/GF-CF/LightGCN-PyTorch/Fig1/sources/.rendered.sampling.cpp:62:33: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     for (int user_i = 0; user_i < users.size(); user_i++)
+                          ~~~~~~~^~~~~~~~~~~~~~
+[0;30;43mCpp extension not loaded[0m
+>>SEED: 2020
+[0;30;43mloading [../data/gowalla][0m
+810128 interactions for training
+217242 interactions for testing
+gowalla Sparsity : 0.0008396216228570436
+gowalla is ready to go
+===========config================
+{'A_n_fold': 100,
+ 'A_split': False,
+ 'bigdata': False,
+ 'bpr_batch_size': 2048,
+ 'decay': 0.0001,
+ 'dropout': 0,
+ 'keep_prob': 0.6,
+ 'latent_dim_rec': 1024,
+ 'lightGCN_n_layers': 3,
+ 'lr': 0.001,
+ 'multicore': 0,
+ 'pretrain': 0,
+ 'test_u_batch_size': 100}
+cores for test: 20
+comment: lgn
+tensorboard: 1
+LOAD: 0
+Weight path: ./checkpoints
+Test Topks: [20]
+using bpr loss
+===========end===================
+[0;30;43muse NORMAL distribution initilizer[0m
+loading adjacency matrix
+successfully loaded...
+don't split the matrix
+lgn is already to go(dropout:0)
+load and save to /Users/gus/Desktop/light-gcn/code/checkpoints/lgn-gowalla-3-1024.pth.tar
+[0;30;43m[TEST][0m
+{'precision': array([0.04839072]), 'recall': array([0.15337155]), 'ndcg': array([0.12395232])}
+/home/v-yifeis/GF-CF/LightGCN-PyTorch/Fig1/sources/.rendered.sampling.cpp: In function ‘pybind11::array_t<int> sample_negative_ByUser(std::vector<int>, int, std::vector<std::vector<int> >, int)’:
+/home/v-yifeis/GF-CF/LightGCN-PyTorch/Fig1/sources/.rendered.sampling.cpp:62:33: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     for (int user_i = 0; user_i < users.size(); user_i++)
+                          ~~~~~~~^~~~~~~~~~~~~~
+[0;30;43mCpp extension not loaded[0m
+>>SEED: 2020
+[0;30;43mloading [../data/gowalla][0m
+810128 interactions for training
+217242 interactions for testing
+gowalla Sparsity : 0.0008396216228570436
+gowalla is ready to go
+===========config================
+{'A_n_fold': 100,
+ 'A_split': False,
+ 'bigdata': False,
+ 'bpr_batch_size': 2048,
+ 'decay': 0.0001,
+ 'dropout': 0,
+ 'keep_prob': 0.6,
+ 'latent_dim_rec': 2048,
+ 'lightGCN_n_layers': 3,
+ 'lr': 0.001,
+ 'multicore': 0,
+ 'pretrain': 0,
+ 'test_u_batch_size': 100}
+cores for test: 20
+comment: lgn
+tensorboard: 1
+LOAD: 0
+Weight path: ./checkpoints
+Test Topks: [20]
+using bpr loss
+===========end===================
+[0;30;43muse NORMAL distribution initilizer[0m
+loading adjacency matrix
+successfully loaded...
+don't split the matrix
+lgn is already to go(dropout:0)
+load and save to /Users/gus/Desktop/light-gcn/code/checkpoints/lgn-gowalla-3-2048.pth.tar
+[0;30;43m[TEST][0m
+{'precision': array([0.05018421]), 'recall': array([0.16147322]), 'ndcg': array([0.12979734])}
+/home/v-yifeis/GF-CF/LightGCN-PyTorch/Fig1/sources/.rendered.sampling.cpp: In function ‘pybind11::array_t<int> sample_negative_ByUser(std::vector<int>, int, std::vector<std::vector<int> >, int)’:
+/home/v-yifeis/GF-CF/LightGCN-PyTorch/Fig1/sources/.rendered.sampling.cpp:62:33: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     for (int user_i = 0; user_i < users.size(); user_i++)
+                          ~~~~~~~^~~~~~~~~~~~~~
+[0;30;43mCpp extension not loaded[0m
+>>SEED: 2020
+[0;30;43mloading [../data/gowalla][0m
+810128 interactions for training
+217242 interactions for testing
+gowalla Sparsity : 0.0008396216228570436
+gowalla is ready to go
+===========config================
+{'A_n_fold': 100,
+ 'A_split': False,
+ 'bigdata': False,
+ 'bpr_batch_size': 2048,
+ 'decay': 0.0001,
+ 'dropout': 0,
+ 'keep_prob': 0.6,
+ 'latent_dim_rec': 4096,
+ 'lightGCN_n_layers': 3,
+ 'lr': 0.001,
+ 'multicore': 0,
+ 'pretrain': 0,
+ 'test_u_batch_size': 100}
+cores for test: 20
+comment: lgn
+tensorboard: 1
+LOAD: 0
+Weight path: ./checkpoints
+Test Topks: [20]
+using bpr loss
+===========end===================
+[0;30;43muse NORMAL distribution initilizer[0m
+loading adjacency matrix
+successfully loaded...
+don't split the matrix
+lgn is already to go(dropout:0)
+load and save to /Users/gus/Desktop/light-gcn/code/checkpoints/lgn-gowalla-3-4096.pth.tar
+[0;30;43m[TEST][0m
+{'precision': array([0.05118226]), 'recall': array([0.16538386]), 'ndcg': array([0.13246305])}
