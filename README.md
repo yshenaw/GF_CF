@@ -11,6 +11,8 @@ The code is heavily built on LightGCN's code.
 (See Pytorch [implementation](https://github.com/gusye1234/LightGCN-PyTorch))
 We also adopt exactly the same dataset and train/test splitting. The code is not optimized for speed but rather for simplicity.
 
+How to clone from anonymous github? https://github.com/ShoufaChen/clone-anonymous4open
+
 ## Enviroment Requirement
 
 `pip install -r requirements.txt`
