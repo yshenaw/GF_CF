@@ -145,8 +145,8 @@ class LightGCN(BasicModel):
         items_emb = self.embedding_item.weight
         all_emb = torch.cat([users_emb, items_emb])
         #   torch.split(all_emb , [self.num_users, self.num_items])
-        #embs = [all_emb]
-        embs = torch.zeros_like(all_emb)
+        embs = []
+
         if self.config['dropout']:
             if self.training:
                 print("droping")
@@ -156,7 +156,7 @@ class LightGCN(BasicModel):
         else:
             g_droped = self.Graph    
         
-        '''for layer in range(self.n_layers):
+        for layer in range(self.n_layers):
             if self.A_split:
                 temp_emb = []
                 for f in range(len(g_droped)):
@@ -165,15 +165,11 @@ class LightGCN(BasicModel):
                 all_emb = side_emb
             else:
                 all_emb = torch.sparse.mm(g_droped, all_emb)
-            embs.append(all_emb)
+            if(layer > 0):
+                embs.append(all_emb)
         embs = torch.stack(embs, dim=1)
         #print(embs.size())
-        light_out = torch.mean(embs, dim=1)'''
-        for layer in range(self.n_layers):
-            all_emb = torch.sparse.mm(g_droped, all_emb)
-            if(layer > 0):
-                embs += all_emb
-        light_out = embs
+        light_out = torch.mean(embs, dim=1)
         users, items = torch.split(light_out, [self.num_users, self.num_items])
         return users, items
     
