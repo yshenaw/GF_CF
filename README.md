@@ -2,7 +2,7 @@
 
 This is the Pytorch implementation for reproducing the results in 
 
-> CIKM 2021. Yifei Shen, Yongji Wu, Yao Zhang, Caihua Shan, Jun Zhang, Khaled B. Letaief, Dongsheng Li(2021). How Powerful is Graph Convolution for Recommendation? 
+> CIKM 2021. Yifei Shen, Yongji Wu, Yao Zhang, Caihua Shan, Jun Zhang, Khaled B. Letaief, Dongsheng Li(2021). How Powerful is Graph Convolution for Recommendation? [Paper in arXiv](https://arxiv.org/abs/2108.07567)
 
 The code is heavily built on LightGCN's code.
 
